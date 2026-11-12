@@ -11,9 +11,9 @@ Tally is tiny web analytics you host yourself. One script under 2 kB, no cookies
 1. [Install Tally](install.md) on any server with Docker, or download the binary.
 2. Add the tracking script to your site:
 
-```html
-<script defer src="https://stats.example.com/tally.js" data-site="example.com"></script>
-```
+    ```html
+    <script defer src="https://stats.example.com/tally.js" data-site="example.com"></script>
+    ```
 
 3. Open `https://stats.example.com` and log in with the admin password you set during install.
 

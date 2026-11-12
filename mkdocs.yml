@@ -1,0 +1,21 @@
+site_name: Tally
+site_description: Tiny, cookie-free web analytics you host yourself.
+site_url: https://fengyiqicoder.github.io/mkdocs-ai-chatbot/
+repo_url: https://github.com/fengyiqicoder/mkdocs-ai-chatbot
+
+theme:
+  name: material
+  palette:
+    primary: teal
+  features:
+    - navigation.sections
+
+nav:
+  - Home: index.md
+  - Install: install.md
+  - Configuration: configuration.md
+  - Track events: events.md
+  - Privacy: privacy.md
+
+extra_javascript:
+  - https://onetagai.com/ask-docs.js?key=ot_demo000000000000000000000
